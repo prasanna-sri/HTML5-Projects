@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 80px;
+    color: gray;
+}
+p {
+    font-size: 25px;
+    color: gray;
+    margin-bottom: 10px;
+}
+.button{
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px 25px;
+    border: none;
+    margin: 10px;
+}
+header {
+    background-color:rgb(13, 195, 182);
+    padding: 25px;
+}
+header h1 {
+    color: white;
+}
+nav {
+  background-color: lightgray;
+}
+nav a {
+    text-decoration: none; 
+    padding: 10px 25px;
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+}
+nav a:hover{
+    background-color:rgb(13, 195, 182);
+}
+.home-section {
+    padding:100px ;
+}
+.places-section img{
+    margin: 0;
+    width: 450px;
+    height: 700px;
+    display: inline-block;
+}
+.our-packages figure{
+    box-shadow: 0 0 10px black;
+    width: 400px;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+}
+.our-packages figure img {
+    width: 100%;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+}
+.our-packages figure figcaption{
+    font-size: 30px;
+}
+.our-packages figure p {
+    font-size: 18px;
+}
+
+.main-footer{
+    background-color: gray;
+    color:whitesmoke;
+    padding: 20px;
+    margin-top: 20px;
+}
+

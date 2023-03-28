@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job-Enrollment</title>
+</head>
+<style>
+    div {
+        background-color: lightgray;
+        margin :10px;
+        padding: 10px;
+        width: 400px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px gray;
+    }
+    form {
+        font-family: calibri, sans-serif;
+        margin: 5px;
+    }
+    input,textarea,select {
+        border: none;
+        font-size: 20px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .button {
+        color: white;
+        background-color: black;
+    }
+</style>
+<body>
+    <div>
+        <h2>Job Enrollment</h2>
+        <form>
+            <label>Username</label><br>
+            <input type="text" placeholder="username"><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="password"><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="email"><br>
+            <label>About Yourself</label><br>
+            <textarea rows="3" cols="25" type="text"></textarea placeholder="Bio"><br>
+            <label>Designation</label><br>
+            <select>
+                <option>Software Engineer</option>
+                <option>Sr.Software Engineer</option>
+                <option>Manager</option>
+                <option>Lead</option>
+            </select><br>
+            <label>DOB</label><br>
+            <input type="date"><br>
+            <label>Your Image</label><br>
+            <input type="file"><br>
+            <label>Mobile Number</label><br>
+            <input type="number"><br><br>
+            <label>Programming Level</label><br>
+            <input type="checkbox" value="Beginner">Beginner
+            <input type="checkbox" value="Intermediate">Intermediate
+            <input type="checkbox" value="Professional">Professional<br><br>
+            <label>Expertise in</label><br>
+            <input type="checkbox" value="Backend">Backend
+            <input type="checkbox" value="Frontend">Frontend
+            <input type="checkbox" value="Database">Database
+            <input type="checkbox" value="Fullstack">Fullstack<br><br>
+            <label>Website URL</label><br>
+            <input type="text" placeholder="Your Website">
+        </form><br>
+        <input class="button" type="submit" value="Enroll">
+        <input class="button" type="reset" value="Reset">
+    </div>
+</body>
+</html>
